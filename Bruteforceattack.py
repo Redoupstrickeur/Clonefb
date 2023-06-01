@@ -1,7 +1,7 @@
 
 #!/usr/bin/python 
   
- import smtplib 
+ import 
  from os import system 
   
  def main(): 
