@@ -1,13 +1,12 @@
 
 #!/usr/bin/python 
- '''coded by John Ry ''' 
   
  import smtplib 
  from os import system 
   
  def main(): 
     print '=================================================' 
-    print '   coded by John Ry                     ' 
+    print '   coded by REDOUPS                    ' 
     print '   creator by RED OUPS                          ' 
     print '   HACKER : RED OUPS                              ' 
     print '   HACKER : CONSTANTINE                          ' 
