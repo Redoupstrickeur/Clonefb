@@ -1,7 +1,6 @@
 # Decompile by : Nazim
  # Time Succes decompile : 2022-07-19  00:21:42.178972  
-  
- W = '\033[97;1m'  
+    
  R = '\033[91;1m'  
  G = '\033[92;1m'  
  Y = '\033[93;1m'  
