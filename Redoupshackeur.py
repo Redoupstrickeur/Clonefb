@@ -1,16 +1,6 @@
 # Decompile by : Nazim
  # Time Succes decompile : 2022-07-19  00:21:42.178972  
     
- R = '\033[91;1m'  
- G = '\033[92;1m'  
- Y = '\033[93;1m'  
- B = '\033[94;1m' 
- P = '\033[95;1m' 
- C = '\033[96;1m' 
- N = '\x1b[0m' 
-  
-  
-  
  import os 
  try: 
          import requests 
