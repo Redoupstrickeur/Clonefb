@@ -1,4 +1,4 @@
-# Decompile by : REDOUPS
+# Decompile by : Nazim
  # Time Succes decompile : 2022-07-19  00:21:42.178972  
   
  W = '\033[97;1m'  
