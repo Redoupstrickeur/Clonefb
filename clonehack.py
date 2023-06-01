@@ -1,11 +1,6 @@
 import os, platform 
   
   
-  
- try: 
-  
-  
-  
          import requests 
   
   
